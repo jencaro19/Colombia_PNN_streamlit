@@ -1,0 +1,7 @@
+pandas
+geemap
+geopandas
+jupyter-server-proxy
+leafmap
+streamlit
+streamlit-option-menu
