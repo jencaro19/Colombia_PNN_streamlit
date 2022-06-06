@@ -1,0 +1,53 @@
+body{
+    max-width: 1024px;
+    margin: 100px;
+
+    font-size: 15px;
+    font-family: 'Lucida Sans';
+
+    background-color: rgb(120, 93, 145);
+}
+
+input{
+    font-size: 14px; /* either you can define the parameters individually or inherit from the previous size mentioned in "body"*/
+    font-family: 'Times New Roman';
+
+    padding: 10px; /* inner spacing for the text boxes and the button tags*/
+
+    width: 450px;
+
+}
+
+button{
+    font-size: inherit; /* either you can define the parameters individually or inherit from the previous size mentioned in "body"*/
+    font-family: 'Times New Roman';
+
+    padding: 10px; /* inner spacing for the text boxes and the button tags*/
+
+}
+
+button{
+    color: aqua;
+}
+
+.style li:nth-child(odd)
+{background-color: beige;}
+
+.style li:nth-child(even)
+{background-color:brown ;}
+
+a:hover{
+    color: darkolivegreen;
+}
+
+a{
+    transition: all 1s;
+}
+
+img{
+    height: 180px;
+}
+
+img:hover{
+    transform: rotate(10deg) scale(0.5);
+}
